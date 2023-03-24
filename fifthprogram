@@ -1,0 +1,18 @@
+#include<stdio.h>
+main()
+{
+    int a,b,add,sub,mul,div,mod;
+    printf("Enter the two number of value");
+    scanf("%d%d",&a,&b);
+    add=a+b;
+    sub=a-b;
+    mul=a*b;
+    div=a/b;
+    mod=a%b;
+    printf("add = %d /n",add);
+    printf("sub = %d /n", sub);
+    printf("mul = %d /n",mul);
+    printf("div = %d /n",div);
+    printf("mod = %d /n",mod);
+return 0;
+}
